@@ -5,7 +5,7 @@
 .backgrounf_section1{
     background: linear-gradient(#FF4029, #F02228);
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 .header{
     width: 80%;
@@ -14,4 +14,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.section1{
+    width: 80%;
+    margin: auto; 
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+}
+.btn_section1{
+    padding: 15px;
+    background-color: none;
+    border: 3px solid white;
+    width: 250px;
+    background: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: 35px;
+}
+.btn_section1:hover{
+    background-color: white;
+    color: #F02228;
+    transition: 0.2s;
+    box-shadow: 3px  gray;
 }
