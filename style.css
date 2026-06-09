@@ -38,3 +38,42 @@
     transition: 0.2s;
     box-shadow: 3px  gray;
 }
+.the_basket{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.section3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.atems_section3{
+    background-color: rgb(234, 234, 234);
+    width: 320px;
+    height: 110px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-between;
+}
+.atems_section3:hover{
+        box-shadow: 5px 5px 5px 8px gray;
+        transition: 0.2s;
+
+}
+.btb_section2_rubl{
+    padding: 8px;
+    border-radius: 15px;
+    background-color: red;
+    border: none;
+    width: 130px;
+    margin-top: 15px;
+}
