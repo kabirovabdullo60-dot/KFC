@@ -77,3 +77,12 @@
     width: 130px;
     margin-top: 15px;
 }
+.phone{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: -380px;
+    align-items: center;
+    gap: 100px;
+
+}
